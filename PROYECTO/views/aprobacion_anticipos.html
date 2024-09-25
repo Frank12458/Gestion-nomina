@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprobación de Anticipos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h2>Aprobación de Anticipos</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Empleado</th>
+                <th>Monto Solicitado</th>
+                <th>Motivo</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody id="solicitudes-list">
+            <tr>
+                <td>Juan Pérez</td>
+                <td>$500</td>
+                <td>Compra de equipo</td>
+                <td>
+                    <button onclick="aprobarSolicitud(this)">Aprobar</button>
+                    <button onclick="denegarSolicitud(this)">Denegar</button>
+                </td>
+            </tr>
+           
+        </tbody>
+    </table>
+</body>
+<script src="js/anticipos.js"></script>
+</html>

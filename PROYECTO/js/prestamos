@@ -1,0 +1,6 @@
+function solicitarPrestamo() {
+    const table = document.getElementById('prestamos-list');
+    const row = table.insertRow();
+    row.innerHTML = `<td>Nuevo Empleado</td><td>$500</td><td>3%</td><td>$500</td>`;
+    alert("Préstamo solicitado");
+}

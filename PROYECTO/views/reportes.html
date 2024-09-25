@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportes Financieros</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h2>Reportes Financieros</h2>
+    <form id="reporteForm">
+        <label for="tipoReporte">Selecciona el tipo de reporte:</label>
+        <select id="tipoReporte" name="tipoReporte">
+            <option value="nomina">Nóminas</option>
+            <option value="prestamos">Préstamos</option>
+            <option value="anticipos">Anticipos</option>
+        </select>
+        <button type="submit">Generar Reporte</button>
+    </form>
+</body>
+<script src="js/reportes.js"></script>
+</html>

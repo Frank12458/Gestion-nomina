@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generación de Nóminas</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h2>Generación de Nóminas</h2>
+    <form id="nominaForm">
+        <label for="periodo">Período de la Nómina:</label>
+        <input type="date" id="periodo" name="periodo" required>
+        <button type="submit">Generar Nómina</button>
+    </form>
+
+    <h3>Resumen de Nómina</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Empleado</th>
+                <th>Salario Base</th>
+                <th>Deducciones</th>
+                <th>Bonificaciones</th>
+                <th>Salario Neto</th>
+            </tr>
+        </thead>
+        <tbody id="nomina-list">
+            <tr>
+                <td>Juan Pérez</td>
+                <td>$1000</td>
+                <td>$100</td>
+                <td>$50</td>
+                <td>$950</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<script src="js/nomina.js"></script>
+</html>

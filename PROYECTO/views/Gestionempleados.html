@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Empleados</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h2>Gestión de Empleados</h2>
+    <button onclick="agregarEmpleado()">Agregar Empleado</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>ID</th>
+                <th>Posición</th>
+                <th>Salario</th>
+            </tr>
+        </thead>
+        <tbody id="empleados-list">
+            <tr>
+                <td>Juan Pérez</td>
+                <td>1</td>
+                <td>Analista</td>
+                <td>$1,000</td>
+            </tr>
+            <!-- Más filas -->
+        </tbody>
+    </table>
+</body>
+<script src="js/empleados.js"></script>
+</html>
